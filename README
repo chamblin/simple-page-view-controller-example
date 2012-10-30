@@ -1,0 +1,5 @@
+This is the simplest possible example of a UIPageViewController implementation I could think of.
+
+In my example, the pages are ColorViewControllers, which is just a regular view controller that can be initialized with a background color so it's obvious that it worked.  The data source returns alternating red and green ColorViewControllers.  In the real world, you would probably just use an array or something to keep track of which page you were on.
+
+The PageViewController is initialized with a red ColorViewController.
